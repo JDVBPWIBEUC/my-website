@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>هنرستان باهنر</title>
+    <style>
+      @font-face {
+        font-family: 'DAMOON-Light';
+        src: url('DAMOON-Light.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'DAMOON-Bold';
+        src: url('DAMOON-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+      }
+
+      .bold-text {
+        font-family: 'DAMOON-Bold', sans-serif;
+        font-weight: bold;
+      }
+
+      body {
+        background: url('background.jpg') no-repeat center center fixed;
+        background-size: cover;
+        color: white;
+        font-family: 'DAMOON-Light', sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      header {
+        background: url('header-bg.jpg') no-repeat center center;
+        background-size: cover;
+        height: 200px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      }
+
+      .header-title {
+        font-family: 'DAMOON-Bold', sans-serif;
+        font-weight: bold;
+        font-size: 55px; /* سایز فونت بزرگتر */
+      }
+
+      nav {
+        margin: 20px 0;
+      }
+
+      nav a {
+        color: #ead8b1;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 20px; /* سایز فونت لینک‌ها */
+        font-weight: bold;
+        transition: color 0.3s;
+      }
+
+      nav a:hover {
+        color: #ffcc00;
+      }
+
+      .container {
+        padding: 20px;
+        flex: 1;
+      }
+
+      section {
+        margin: 30px 0;
+        padding: 20px;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      section h2 {
+        font-size: 30px; /* سایز عنوان بخش */
+      }
+
+      section p {
+        font-size: 20px; /* سایز پاراگراف */
+      }
+
+      .animated-button {
+        display: inline-block;
+        padding: 12px 24px;
+        background: #6a9ab0;
+        color: white;
+        font-size: 18px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      .animated-button:hover {
+        background: #ead8b1;
+        color: #001f3f;
+        transform: scale(1.1);
+      }
+
+      .footer-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="header-title"><span class="bold-text">هنرستان باهنر</span></h1>
+        <nav>
+            <a href="fotografik.html">فتوگرافیک</a>
+            <a href="memari.html">معماری</a>
+            <a href="hesabdari.html">حسابداری</a>
+            <a href="sakhteman.html">ساختمان</a>
+            <a href="contact.html">تماس با ما</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <section>
+            <h2>به هنرستان باهنر خوش آمدید</h2>
+            <p>محیطی برای پرورش خلاقیت و استعدادهای هنری در رشته‌های مختلف</p>
+            <a href="gallery.html" class="animated-button">مشاهده گالری آثار</a>
+        </section>
+    </div>
+
+    <div class="footer-image">
+        <img src="footer-banner.jpg" alt="تصویر پایین سایت">
+    </div>
+</body>
+</html>
